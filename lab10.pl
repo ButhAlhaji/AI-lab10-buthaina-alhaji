@@ -1,19 +1,16 @@
 %-----------task 1------------
-% Square
 square_area(Side, Area) :-
     Area is Side * Side.
 
 square_perimeter(Side, Perimeter) :-
     Perimeter is 4 * Side.
 
-% Rectangle
 rectangle_area(Width, Height, Area) :-
     Area is Width * Height.
 
 rectangle_perimeter(Width, Height, Perimeter) :-
     Perimeter is 2 * (Width + Height).
 
-% Triangle
 triangle_area(Base, VerticalHeight, Area) :-
     Area is 0.5 * Base * VerticalHeight.
 
@@ -50,7 +47,7 @@ check_credentials(User, Pass, Attempts) :-
     login_attempt(Remaining).
 
 
-*/
+/*
 100 ?- login.
 
 Enter Username: admin.
